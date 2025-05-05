@@ -1,1 +1,16 @@
-<p>login works!</p>
+<section class="login-container d-flex flex-column justify-content-center align-items-center">
+    <form>
+        <section class="email-userName m-2">
+            <label for="email-username">Email / UserName</label>
+            <input class="d-block" id="email-username" />
+        </section>
+
+        <section class="password m-2">
+            <label for="password">Password</label>
+            <input type="password" id="password" class="d-block" />
+        </section>
+
+        <!-- if in url after port it has / then in routerLink we have to give forward-slash(/) -->
+        <button class="btn btn-success m-2" routerLink="/home">LogIn</button>
+    </form>
+</section>
