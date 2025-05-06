@@ -1,0 +1,52 @@
+NOTES 
+
+1) for checkbox we can't change background color, it doesn't work for most of the browsers, so we need to create custom control
+2) for select element down arrow will not come by default so we need to create custom control
+3) for drag and drop api if we move element then at the drop zone if we want to drop perfectly then we need to calculate left and top while dragging with respect to element and then while dropping we need to add those left and top to the calculated left and calculated top
+
+
+		 	 19-04-2025
+			------------
+-> have to check in c# how to assign value to object property and that property we need to create using object class
+
+-> have to check when , and when ; used in object
+   like if we see in style file in angular or any where its like external file or internal style tag for every property ; is using, but in [ngStyle]="{ backgroundColor: backgroundColor, color: 'white' }"     note here , comma using between two properties
+
+
+
+			 21-04-2025
+			------------
+-> In Angular element top and bottom property values are not comming, only x and left values are coming if that is any child component and if we access element using it's classname or viewChild()     in any case not working
+
+-> 
+
+
+			 03-05-2025
+			------------
+-> In vue for property binding if we use colon(:) then it is fine, vue can't differentiate between standart dom properties and custom attributes, but in angular if it is standard dom property then we have to use squarebraces([]), if it is custom attribute then we have to bind squarebraceswithattr ([attr.attributename]), it works with custom attributes and like aria- attributes
+
+-> In vue it's not chekcing for id binding like :id='var' whether the variable is defined or not
+
+
+
+			 06-05-2025
+			------------
+
+-> in dragover event we can't get values of event because on dragover it's just a wrapper is moving not the actual element
+-> 
+
+ have to check all config files properties in detail
+
+
+
+
+
+
+
+
+
+
+
+
+
+
