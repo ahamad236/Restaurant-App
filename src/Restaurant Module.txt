@@ -64,6 +64,8 @@ restaurant-app/
 Explanation:
 components/: Contains all the Angular components that make up the UI.
 
+NOTE : Have to add OTP operation while login, instead of password
+
 navbar/: The top navigation bar for the app.
 
 menu/: Displays the restaurant menu and allows users to select items.
