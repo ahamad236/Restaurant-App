@@ -1,6 +1,7 @@
-import { Component } from '@angular/core';
+import { Component, signal, input } from '@angular/core';
 import { MenuItemComponent } from '../menu-item/menu-item.component';
 import { RangePipe } from '../../pipes/range.pipe';
+import { MenuItem } from '../../models/menu-item.model';
 
 @Component({
   selector: 'app-menu',
@@ -9,5 +10,5 @@ import { RangePipe } from '../../pipes/range.pipe';
   styleUrl: './menu.component.scss'
 })
 export class MenuComponent {
-
+  menuList = input<MenuItem[]>();
 }
