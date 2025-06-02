@@ -11,4 +11,6 @@ import { MenuItem } from '../../models/menu-item.model';
 })
 export class MenuComponent {
   menuList = input<MenuItem[]>();
+
+  // have to add from here onwards 
 }
