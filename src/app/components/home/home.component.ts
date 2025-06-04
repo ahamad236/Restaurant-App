@@ -12,10 +12,13 @@ import { MenuItem } from '../../models/menu-item.model';
 })
 export class HomeComponent {
   menuList = signal<MenuItem[]>([{
-    
+    MenuItemIcon: "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=format&fit=crop&w=800&q=80",
+    MenuItemDescription: "Pizza",
+    MenuItemPrice: 10,
+    MenuItemDeliveryTime: 20
   }]);
 
-
+  
   //Example Menu Item Images (Free Stock URLs):
 //Pizza
 
