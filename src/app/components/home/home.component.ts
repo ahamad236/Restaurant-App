@@ -11,5 +11,7 @@ import { MenuItem } from '../../models/menu-item.model';
   styleUrl: './home.component.scss'
 })
 export class HomeComponent {
-  menuList = signal<MenuItem[]>([ ]);
+  menuList = signal<MenuItem[]>([{
+    
+  }]);
 }
