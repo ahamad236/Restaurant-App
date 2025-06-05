@@ -1,5 +1,5 @@
 export class MenuItem {
-  public MenuItemIcon: string = "";
+  public MenuItemImageURL: string = "";
   public MenuItemName: string = "";
   public MenuItemDescription: string = "";
   public MenuItemPrice: number = 0;

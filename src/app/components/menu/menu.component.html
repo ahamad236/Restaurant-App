@@ -1,5 +1,9 @@
-@for(item of 10 | range; track item){
-<app-menu-item></app-menu-item>
+<!-- @for(item of 10 | range; track item){
+<app-menu-item [menuList]="menuList"></app-menu-item>
+} -->
+
+@for(menuItem of menuList(); track menuItem){
+    <app-menu-item [menuItem]="menuItem"></app-menu-item>
 }
 
 <!-- Here have to add list of menu items -->
