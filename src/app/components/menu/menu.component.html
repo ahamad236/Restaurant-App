@@ -6,5 +6,9 @@
     <app-menu-item [menuItem]="menuItem"></app-menu-item>
 }
 
+@for(menuItem of menuList(); track menuItem){
+    <app-menu-item [menuItem]="menuItem"></app-menu-item>
+}
+
 <!-- Here have to add list of menu items -->
 
