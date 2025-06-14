@@ -29,6 +29,10 @@ app-menu{
     flex-flow: wrap;
     flex-wrap: wrap;
     // width: 100%;
+
+    gap: 16px;
+    justify-content: center;
+    padding: 20px;
 }
 
 /* have to make menu component responsive */
