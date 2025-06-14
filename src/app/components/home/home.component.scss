@@ -24,4 +24,11 @@ main{
     background-color: cadetblue;
 }
 
+app-menu{
+    display: flex;
+    flex-flow: wrap;
+    flex-wrap: wrap;
+    // width: 100%;
+}
+
 /* have to make menu component responsive */
